@@ -2,7 +2,46 @@ h1{
     display: flex;
     font-size: 40px;
     justify-content: center;
-
+    font-family: 'Times New Roman', Times, serif;
 }
 
+ul li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+header h1 {
+    text-align: center; /* Centrar el título */
+}
+
+article ul {
+    list-style: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar padding */
+    display: flex; /* Usar flexbox para la disposición */
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    align-items: center; /* Centrar los elementos */
+}
+
+article li {
+    margin: 10px 0; /* Espacio entre cada elemento */
+    font-size: 1.5rem; /* Tamaño de fuente */
+    text-align: center; /* Centrar el texto */
+}
+
+article img {
+    width: 200px; /* Establecer un ancho fijo */
+    height: 300px; /* Establecer una altura fija */
+    object-fit: cover; /* Asegurar que las imágenes mantengan sus proporciones */
+    margin-bottom: 10px; /* Espacio debajo de las imágenes */
+}
 
