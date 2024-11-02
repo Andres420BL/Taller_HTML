@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #1D202B;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.contenedor-conciertos {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    height: 200px; 
+    width: calc(33.33% - 20px); 
+    background-size: cover; 
+    background-position: center; 
+    display: block; 
+    text-decoration: none;
+}
+
+.banner {
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner ul {
+    list-style: none;
+}
+
+.banner ul li {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.banner .boton {
+    background: #FFD600;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    /* Estilos para pantallas pequeñas */
+}
+
+@media screen and (max-width: 700px) {
+    /* Estilos para pantallas pequeñas */
+}
+
+@media screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+}
