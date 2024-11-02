@@ -1,47 +1,96 @@
-h1{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
     display: flex;
-    font-size: 40px;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
-ul li{
-    list-style-type: none;
-    margin: 10px;
+nav{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #1D202B;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.contenedor-conciertos {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    height: 200px; 
+    width: calc(33.33% - 20px); 
+    background-size: cover; 
+    background-position: center; 
+    display: block; 
+    text-decoration: none;
+}
+
+.banner {
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner ul {
+    list-style: none;
+}
+
+.banner ul li {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.banner .boton {
+    background: #FFD600;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
     padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-li img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 10px;
-}
-header h1 {
-    text-align: center; /* Centrar el título */
+    border: none;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
-article ul {
-    list-style: none; /* Eliminar viñetas */
-    padding: 0; /* Eliminar padding */
-    display: flex; /* Usar flexbox para la disposición */
-    flex-direction: column; /* Apilar los elementos verticalmente */
-    align-items: center; /* Centrar los elementos */
+@media screen and (max-width: 900px) {
+    /* Estilos para pantallas pequeñas */
 }
 
-article li {
-    margin: 10px 0; /* Espacio entre cada elemento */
-    font-size: 1.5rem; /* Tamaño de fuente */
-    text-align: center; /* Centrar el texto */
+@media screen and (max-width: 700px) {
+    /* Estilos para pantallas pequeñas */
 }
 
-article img {
-    width: 200px; /* Establecer un ancho fijo */
-    height: 300px; /* Establecer una altura fija */
-    object-fit: cover; /* Asegurar que las imágenes mantengan sus proporciones */
-    margin-bottom: 10px; /* Espacio debajo de las imágenes */
+@media screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
 }
-
