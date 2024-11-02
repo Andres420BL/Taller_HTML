@@ -1,55 +1,15 @@
-header {
-    display: flex;              /* Usa Flexbox */
-    justify-content: center;    /* Centra horizontalmente */
-    align-items: center;        /* Centra verticalmente (opcional) */
-    height: 100px;               /* Ajusta la altura según necesites */
-}
-
-
-header img {
-    max-width: 100%;           /* Asegura que la imagen no exceda el contenedor */
-    height: auto;              /* Mantiene la proporción de la imagen */
-}
-.Titulo{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-p{
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
 h1{
-    font-size: 30px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
 }
-aside img{
-    display: flex;              
-    justify-content: center;   
-    width:auto;
-    margin: 0%;
-    padding: 0%;
-}
+
 .Impacto{
     display: flex;
+    align-items: center;
     justify-content: center;
-}
-
-.Comentario{
-    font-size: 15px;
-    display: flex;
-    justify-content: end;
-    margin-top: 10px;
-}
-
-div {
-    display: flex;               /* Usa Flexbox para centrar contenido */
-    justify-content: center;     /* Centra horizontalmente */
-    margin: 20px 0;             /* Espaciado superior e inferior */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 div img {
@@ -59,4 +19,12 @@ div img {
     margin: 10px;               /* Espaciado alrededor de la imagen */
 }
 
+article div {
+    text-align: center;
+}
 
+.carousel-inner img {
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    width: 100%; /* Asegura que la imagen sea responsiva */
+}
