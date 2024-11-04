@@ -63,3 +63,36 @@ article {
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+nav {
+    max-width: 800px; 
+    padding: 20px; 
+    background-color: rgba(34, 34, 34, 0.8); 
+    border-radius: 10px;
+    margin: 20px auto; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+}
+
+nav ul li {
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #FFD600; 
+    text-decoration: none; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    transition: background 0.3s, color 0.3s; 
+}
+
+nav ul li a:hover {
+    background: rgba(255, 214, 0, 0.2); 
+    color: #fff; 
+}
+
